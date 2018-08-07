@@ -34,7 +34,7 @@ try {
       try {
         cron.scheduleJob(job.schedule, () => {
           try {
-            require(job.name);
+            require(job.name)();
           } catch (err) {
             logger.error(err.message);
           }
