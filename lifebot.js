@@ -11,5 +11,5 @@ try {
   require('dotenv').config();
   logger.info('Configuration loaded.');
 } catch (err) {
-  logger.info(`Configuration file not loaded. ${err.message}`);
+  logger.error(`Configuration file not loaded. ${err.message}`);
 }
