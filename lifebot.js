@@ -1,4 +1,5 @@
 const logger = require('log4js').getLogger('lifebot');
+const cron = require('node-schedule');
 
 if (process.env.NODE_ENV !== 'production') {
   logger.level = process.env.LIFEBOT_LOGGER_LEVEL || 'debug';
