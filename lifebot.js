@@ -1,4 +1,6 @@
-const logger = require('log4js').getLogger('lifebot');
+/* global logger */
+
+global.logger = require('log4js').getLogger('lifebot');
 const cron = require('node-schedule');
 
 if (process.env.NODE_ENV !== 'production') {
