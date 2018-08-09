@@ -4,7 +4,8 @@
   "description": "Lifebot may not injure a human being or, through inaction, allow a human being to come to harm.",
   "main": "lifebot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node lifebot.js"
   },
   "author": "Trevor Reid <trevor.d.reid@gmail.com> (http://tdreid.github.io)",
   "license": "MIT",
