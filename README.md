@@ -6,7 +6,7 @@ Lifebot may not injure a human being or, through inaction, allow a human being t
 This repository accompanies a JavaScript automation tutorial published by [@tdre](https://steemit.com/@tdre) 
 on the Steem Blockchain:
 
-[Create a Scheduling Framework to Automate All The Things](https://busy.org/@tdre/create-a-scheduling-framework-to-automate-all-the-things)
+[Create a Scheduling Framework to Automate All The Things](https://peakd.com/@tdre/create-a-scheduling-framework-to-automate-all-the-things)
 
 ## License
 
